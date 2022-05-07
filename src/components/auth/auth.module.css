@@ -1,0 +1,93 @@
+#authBlock {
+  width: 100%;
+  padding: 20px;
+}
+
+#authBlock article main {
+  height: 30%;
+
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#authBlock article main h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #9c27b0;
+}
+#authBlock article footer form {
+  height: 50%;
+  background-color: #fff;
+}
+
+#authBlock article footer form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+#authBlock article footer form label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #9c27b0;
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+}
+
+#authBlock article footer form button {
+  background-color: #9c27b0;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #9c27b0;
+  border-radius: 4px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#authBlock article footer form button:hover {
+  background-color: #fff;
+  color: #9c27b0;
+}
+
+#authBlock article header {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+#authBlock article header svg {
+  fill: rgb(255, 219, 0);
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.extraBlock {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.extraBlock button {
+  padding: 5px !important;
+  background-color: rgb(29, 211, 143) !important;
+  color: #fff;
+  margin: 4px;
+  border: 1px solid rgb(29, 211, 143) !important;
+  width: auto !important;
+  border-radius: 4px;
+}
+
+.extraBlock button:hover {
+  background: #fff !important;
+  border: 1px solid #9c27b0 !important;
+  color: #9c27b0;
+  cursor: pointer;
+  border-radius: 4px;
+}

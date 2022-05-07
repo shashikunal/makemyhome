@@ -1,0 +1,31 @@
+.userIcon img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.sidebarHeaderBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(242, 243, 248);
+  min-height: 30px;
+  padding: 20px 5px;
+}
+
+.authMenu button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 211, 143);
+  cursor: pointer;
+  padding: 2px 17px;
+  line-height: 36px;
+  border: unset;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contentUser {
+  font-size: 13px;
+  color: #666;
+}
